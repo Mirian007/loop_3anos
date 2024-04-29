@@ -1,4 +1,4 @@
-let loop1 = "";
+let loop1 = "flora";
 
 
 while (loop1 !== "pink") {
