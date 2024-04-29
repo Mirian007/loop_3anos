@@ -1,12 +1,12 @@
 let loop1 = "";
 
 
-while (loop1 !== "Athletico Paranaense") {
-loop1 = prompt("Qual o melhor time do mundo?");
+while (loop1 !== "pink") {
+loop1 = prompt("A palavra pink em inglês é qual cor em português?");
 
-  if (loop1 === "Athletico Paranaense") {
-    alert("É isso aí!");
+  if (loop1 === "rosa") {
+    alert("Você é competente!");
   } else {
-    alert(NÃO é isso. Tente novamente!);
+    alert(Você é incompetente);
   }
 }

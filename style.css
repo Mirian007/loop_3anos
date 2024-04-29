@@ -14,7 +14,7 @@ h1 {color: brown;
 }
 
 #texto-animado {font-size: 150%;
-                color:red;
+                color:rgb(28, 27, 27);
             }
 
 @keyframes animacao-texto {
@@ -34,3 +34,11 @@ h1 {color: brown;
         transform: translateX(0);
     }
 }
+h1 {text-size-adjust: 70%;}
+h1 {text-align: center;}
+h2 {text-align: center;}
+h1 {text-decoration: none;}
+h2 {text-size-adjust: 50%;}
+i {text-align: center;}
+i {text-size-adjust: 45%;}
+h1 {text-decoration-line: initial;}
