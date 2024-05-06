@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("Qual a cor que traduzido do inglês é rosa?");
 
     
-    if (respostaTime.toLowerCase() === "Pink") {
+    if (respostaTime.toLowerCase() === "pink") {
       alert("Very Good:)");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
