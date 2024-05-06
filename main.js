@@ -1,14 +1,21 @@
 
+function verificarTime() {
+    
+  var continuarPerguntando = true;
 
-let loop1 = "";
+  while (continuarPerguntando) {
 
+    var respostaTime = prompt("Qual a cor que traduzido do inglês é rosa?");
 
-while (loop1 !== "rosa") {
-loop1 = prompt("A palavra pink em inglês é qual cor em português?");
-
-  if (loop1 === "rosa") {
-    alert("Você é competente!");
-  } else {
-    alert(Você é imcopetente!);
+    
+    if (respostaTime.toLowerCase() === "Pink") {
+      alert("Very Good:)");
+      continuarPerguntando = false; // Sai do loop após a resposta correta
+    } else {
+      alert("Very bad:(");
+    }
   }
 }
+
+// Chamada da função para iniciar o processo
+verificarTime();
